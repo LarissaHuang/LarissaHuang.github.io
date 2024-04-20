@@ -1,7 +1,5 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, Numpy, Pandas, Tensorflow 
-
 ## Projects
 
 ### CNN for Bird Image Classification With Transfer Learning

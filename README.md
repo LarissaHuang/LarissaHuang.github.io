@@ -5,24 +5,16 @@
 ## Projects
 
 ### CNN for Bird Image Classification With Transfer Learning
-This project is comprised of two parts.
+[Web app](duck-duck-choose.streamlit.app/) | [Github](https://github.com/LarissaHuang/capstone_project)
 
-Part 1 is a proof of concept using a simple base CNN (Convolutional Neural Network) model trained on a simplified dataset of only 4 genuses with greater than 1200 training images: DUCK, WARBLER, PHEASANT, and KINGFISHER. The model was further refined through image background removal and data augmentation, and achieved an accuracy of 87%. 
+This project is comprised of 2 parts. Part I (Sprints 1 - 3) focus on EDA, data cleaning and preprocessing, and feature engineering, image background removal and data augmentation, on a simplified dataset of 4 genuses as input to a base CNN model. Part II (Sprint 4) uses a custom transfer learning model leveraging the pre-trained weights of EfficientNetB0 to classify bird species across 75 bird species. The model achieved 100% accuracy with `evaluate()` method from Tensorflow/Keras. On the web app, it achieved greater than 99% accuracy on most species it was trained on. 
 
-Part 2 employs a pre-trained CNN using transfer learning with EfficientNetB0 model to classify bird species across 75 bird species from a modified dataset comprising 14,978 training images, 375 validation, and 375 test images. The model achieved 100% accuracy using the Tensorflow/Keras `evaluate()` method. On the Streamlit web app, achieved greater than 99% accuracy on most species it was trained on. 
-
-
-[App](duck-duck-choose.streamlit.app/)
-[Github](https://github.com/LarissaHuang/capstone_project)
 
 ### Fraud Detection in Python
-This project addresses fraud detection by leveraging a variety of machine learning techniques and tools across multiple scenarios. 
-
-In scenarios with labeled data, the project uses logistic regression, decision trees, and random forest models alongside SMOTE for handling highly imbalanced datasets, and utilizes tools like scikit-learn and matplotlib for model development and visualization. Techniques such as hyperparameter optimization and ensemble methods improve model accuracy, evaluated using metrics like ROC-AUC and precision-recall curves. 
-
-Additionally, the project explores unsupervised fraud detection using clustering algorithms like K-means and DBSCAN, and employs text mining methods to detect fraud through topic modeling, enhancing the identification of fraudulent activities by analyzing unstructured text data.
-
 [GitHub](https://github.com/LarissaHuang/Fraud-Detection-Python)
+
+This project tackles fraud detection by employing a range of machine learning strategies across both supervised and unsupervised learning domains, alongside text mining. In the realm of supervised learning, the project utilizes models such as logistic regression, decision trees, and random forests. Unsupervised learning techniques include clustering algorithms like K-means and DBSCAN, with text mining and topic modeling to analyze unstructured text for fraudulent activity detection
+
 
 ## Education
 - Data Science Diploma | BrainStation (April 2024)

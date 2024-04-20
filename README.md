@@ -25,6 +25,6 @@ This project tackles fraud detection by employing a range of machine learning st
 - Bachelor of Arts in Creative Writing | University of Wales (2016)
 
 ### Work Experience
-[Resume](https://github.com/LarissaHuang/LarissaHuang.github.io/Larissa_Huang_Data_Science_Resume.pdf)
+[Resume](https://github.com/LarissaHuang/LarissaHuang.github.io/blob/main/Larissa_Huang_Data_Science_Resume.pdf)
 
 
